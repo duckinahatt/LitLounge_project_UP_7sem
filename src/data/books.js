@@ -451,22 +451,4 @@ export const books = [
   }
 ];
 
-export const genres = [
-  "Все",
-  "Фэнтези",
-  "Роман", 
-  "Классика",
-  "Детектив",
-  "Фантастика",
-  "Антиутопия",
-  "Приключения",
-  "Ужасы",
-  "Исторический",
-  "Философия",
-  "Мистика"
-];
 
-export const getBooksByGenre = (genre) => {
-  if (genre === "Все") return books;
-  return books.filter(book => book.genre === genre);
-};
