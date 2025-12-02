@@ -451,4 +451,20 @@ export const books = [
   }
 ];
 
+export const getUniqueGenres = () => {
+  const genres = books.map(book => book.genre);
+  return ['Все', ...new Set(genres)].sort();
+}; //получаем уникальные жанры из списка книг
 
+export const getUniqueAuthors = () => {
+  const authors = books.map(book => book.author);
+  return ['Все', ...new Set(authors)].sort();
+}; //получаем уникальных авторов из списка книг
+
+export const getPriceRange = () => {
+  const prices = books.map(book => book.price);
+  return {
+    min: Math.min(...prices),
+    max: Math.max(...prices)
+  };
+}; //получаем минимальную и максимальную цену книг
