@@ -135,7 +135,12 @@ function Catalog() {
                   </div>
                 </div>
               </div>
-              
+              <button
+                onClick={resetFilters}
+                className="btn w-100 mt-3"
+              >
+                Сбросить
+              </button>
             </div>
           </div>
           <div className="col-lg-9">
