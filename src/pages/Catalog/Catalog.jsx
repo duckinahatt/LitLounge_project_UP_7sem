@@ -106,6 +106,36 @@ function Catalog() {
                 </div>
               </div>
 
+              <div className="filter-section mb-4">
+                <h5 className="filter-title mb-3">Цена, ₽</h5>
+                <div className="row g-2">
+                  <div className="col">
+                    <label className="form-label small text-muted">От</label>
+                    <input
+                      type="number"
+                      className="form-control"
+                      name="minPrice"
+                      min={minPrice}
+                      max={priceRange.max}
+                      value={priceRange.min}
+                      onChange={handlePriceChange}
+                    />
+                  </div>
+                  <div className="col">
+                    <label className="form-label small text-muted">До</label>
+                    <input
+                      type="number"
+                      className="form-control"
+                      name="maxPrice"
+                      min={priceRange.min}
+                      max={maxPrice}
+                      value={priceRange.max}
+                      onChange={handlePriceChange}
+                    />
+                  </div>
+                </div>
+              </div>
+
               <button
                 onClick={resetFilters}
                 className="btn w-100 mt-3"
@@ -114,6 +144,7 @@ function Catalog() {
               </button>
             </div>
           </div>
+
 
           <div className="col-lg-9">
             {filteredBooks.length === 0 && (
