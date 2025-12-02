@@ -1,4 +1,3 @@
-// src/data/books.js
 export const books = [
   {
     id: 1,
