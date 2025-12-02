@@ -52,3 +52,8 @@ h5 {
     flex-direction: column;
     justify-content: space-between; 
 }
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
