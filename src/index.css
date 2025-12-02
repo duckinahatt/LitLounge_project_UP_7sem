@@ -14,6 +14,7 @@
     --main-color-brown: #47341c;
     --main-color-white: #fcf4e4;
     --text-size: 14pt;
+    --light-brown: #9c6c44;
 }
 
 main {
@@ -35,6 +36,7 @@ html, body {
 }
 
 main {
+    margin: 2rem 0;
     flex: 1 0 auto;
 }
 
