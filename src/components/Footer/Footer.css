@@ -1,0 +1,11 @@
+footer {
+    background-color: var(--main-color-brown);
+    color: var(--main-color-white);
+    font-size: var(--text-size);
+    padding: 1rem 3rem;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
