@@ -88,6 +88,24 @@ function Catalog() {
                   ))}
                 </div>
               </div>
+
+              <div className="filter-section mb-4">
+                <h5 className="filter-title mb-3">Автор</h5>
+                <div className="filter-select">
+                  <select
+                    className="form-select"
+                    value={selectedAuthor}
+                    onChange={(e) => setSelectedAuthor(e.target.value)}
+                  >
+                    {authors.map(author => (
+                      <option key={author} value={author}>
+                        {author}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
