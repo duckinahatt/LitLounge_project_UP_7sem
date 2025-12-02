@@ -6,7 +6,6 @@ function Catalog() {
   return (
     <div>
       <a href="">
-        <p>dsfsdfsdfsdf</p>
         <div>sdafsadfsdfsdf</div>
       </a>
     </div>
