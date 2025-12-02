@@ -5,9 +5,6 @@ import './Catalog.css';
 function Catalog() {
   return (
     <div>
-      <a href="">
-        <div>sdafsadfsdfsdf</div>
-      </a>
     </div>
   );
 }
