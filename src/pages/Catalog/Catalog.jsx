@@ -105,8 +105,16 @@ function Catalog() {
                   </select>
                 </div>
               </div>
+
+              <button
+                onClick={resetFilters}
+                className="btn w-100 mt-3"
+              >
+                Сбросить
+              </button>
             </div>
           </div>
+
           <div className="col-lg-9">
             {filteredBooks.length === 0 && (
               <div className="no-results text-center py-5">
