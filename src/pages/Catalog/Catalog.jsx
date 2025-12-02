@@ -105,8 +105,69 @@ function Catalog() {
                   </select>
                 </div>
               </div>
-
             </div>
+          </div>
+          <div className="col-lg-9">
+            {filteredBooks.length === 0 && (
+              <div className="no-results text-center py-5">
+                <h4 className="mb-3">Книги не найдены</h4>
+                <p className="text-muted mb-4">
+                  Попробуйте изменить параметры фильтрации
+                </p>
+                <button
+                  onClick={resetFilters}
+                  className="btn"
+                >
+                  Сбросить все фильтры
+                </button>
+              </div>
+            )}
+
+            {filteredBooks.length > 0 && (
+              <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                {filteredBooks.map(book => (
+                  <div key={book.id} className="col">
+                    <div className="card book-card h-100 shadow-sm">
+                      <div className="book-image-container">
+                        <img
+                          src={book.book_img}
+                          className="card-img-top book-cover"
+                          alt={`Обложка: ${book.title}`}
+                          onError={(e) => {
+                            e.target.onerror = null;
+                            e.target.src = "https://via.placeholder.com/300x400?text=No+Cover";
+                          }}
+                        />
+                      </div>
+                      <div className="card-body">
+                        <h5 className="card-title book-title">{book.title}</h5>
+                        <h6 className="card-subtitle mb-2 text-muted book-author">
+                          {book.author}
+                        </h6>
+                        <div className="mb-2">
+                          <p className='text-muted'>{book.genre}</p>
+                        </div>
+                        <p className="card-text book-description">
+                          {book.description.length > 80
+                            ? `${book.description.substring(0, 80)}...`
+                            : book.description}
+                        </p>
+                        <div className="d-flex justify-content-between align-items-center mt-3">
+                          <span className="book-price fw-bold text-brown">
+                            {book.price} ₽
+                          </span>
+                          {book.rating && (
+                            <span className="book-rating">
+                              ⭐ {book.rating.toFixed(1)}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </div>
