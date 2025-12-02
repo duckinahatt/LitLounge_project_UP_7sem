@@ -11,6 +11,7 @@
 }
 
 :root {
+    --main-color-shadow: #9c6c4442;
     --main-color-brown: #47341c;
     --main-color-white: #fcf4e4;
     --text-size: 14pt;
