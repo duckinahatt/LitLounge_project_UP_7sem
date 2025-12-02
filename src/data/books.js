@@ -551,22 +551,7 @@ export const books = [
   }
 ];
 
-export const genres = [
-  "Все",
-  "Фэнтези",
-  "Роман", 
-  "Классика",
-  "Детектив",
-  "Фантастика",
-  "Антиутопия",
-  "Приключения",
-  "Ужасы",
-  "Исторический",
-  "Философия",
-  "Мистика"
-];
-
-export const getBooksByGenre = (genre) => {
-  if (genre === "Все") return books;
-  return books.filter(book => book.genre === genre);
-};
+export const getUniqueGenres = () => {
+  const genres = books.map(book => book.genre);
+  return ['Все', ...new Set(genres)].sort();
+}; //получаем уникальные жанры из списка книг
