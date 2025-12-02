@@ -6,7 +6,9 @@ export const books = [
     genre: "Антиутопия",
     author: "Джордж Оруэлл",
     price: 450,
-    book_img: "/assets/img/books/1984.jpg"
+    book_img: "/assets/img/books/1984.jpg",
+    rating: 4.7,
+    reviews: 1250
   },
   {
     id: 2,
@@ -15,7 +17,9 @@ export const books = [
     genre: "Мистика",
     author: "Михаил Булгаков",
     price: 520,
-    book_img: "/assets/img/books/master_margarita.jpg"
+    book_img: "/assets/img/books/master_margarita.jpg",
+    rating: 4.8,
+    reviews: 980
   },
   {
     id: 3,
@@ -24,7 +28,9 @@ export const books = [
     genre: "Классика",
     author: "Фёдор Достоевский",
     price: 380,
-    book_img: "/assets/img/books/crime_punishment.jpg"
+    book_img: "/assets/img/books/crime_punishment.jpg",
+    rating: 4.6,
+    reviews: 890
   },
   {
     id: 4,
@@ -33,7 +39,9 @@ export const books = [
     genre: "Философия",
     author: "Антуан де Сент-Экзюпери",
     price: 320,
-    book_img: "/assets/img/books/little_prince.jpg"
+    book_img: "/assets/img/books/little_prince.jpg",
+    rating: 4.9,
+    reviews: 2100
   },
   {
     id: 5,
@@ -42,7 +50,9 @@ export const books = [
     genre: "Фэнтези",
     author: "Джоан Роулинг",
     price: 550,
-    book_img: "/assets/img/books/harry_potter_1.jpg"
+    book_img: "/assets/img/books/harry_potter_1.jpg",
+    rating: 4.8,
+    reviews: 3500
   },
   {
     id: 6,
@@ -51,7 +61,9 @@ export const books = [
     genre: "Фэнтези",
     author: "Дж. Р. Р. Толкин",
     price: 670,
-    book_img: "/assets/img/books/lotr_1.jpg"
+    book_img: "/assets/img/books/lotr_1.jpg",
+    rating: 4.9,
+    reviews: 2800
   },
   {
     id: 7,
@@ -60,7 +72,9 @@ export const books = [
     genre: "Роман",
     author: "Эрих Мария Ремарк",
     price: 420,
-    book_img: "/assets/img/books/three_comrades.jpg"
+    book_img: "/assets/img/books/three_comrades.jpg",
+    rating: 4.5,
+    reviews: 760
   },
   {
     id: 8,
@@ -69,7 +83,9 @@ export const books = [
     genre: "Магический реализм",
     author: "Габриэль Гарсиа Маркес",
     price: 530,
-    book_img: "/assets/img/books/one_hundred_years.jpg"
+    book_img: "/assets/img/books/one_hundred_years.jpg",
+    rating: 4.7,
+    reviews: 1100
   },
   {
     id: 9,
@@ -78,7 +94,9 @@ export const books = [
     genre: "Роман",
     author: "Владимир Набоков",
     price: 490,
-    book_img: "/assets/img/books/lolita.jpg"
+    book_img: "/assets/img/books/lolita.jpg",
+    rating: 4.3,
+    reviews: 650
   },
   {
     id: 10,
@@ -87,7 +105,9 @@ export const books = [
     genre: "Роман",
     author: "Джером Д. Сэлинджер",
     price: 370,
-    book_img: "/assets/img/books/catcher_rye.jpg"
+    book_img: "/assets/img/books/catcher_rye.jpg",
+    rating: 4.4,
+    reviews: 920
   },
   {
     id: 11,
@@ -96,7 +116,9 @@ export const books = [
     genre: "Роман",
     author: "Джейн Остин",
     price: 410,
-    book_img: "/assets/img/books/pride_prejudice.jpg"
+    book_img: "/assets/img/books/pride_prejudice.jpg",
+    rating: 4.6,
+    reviews: 1350
   },
   {
     id: 12,
@@ -105,7 +127,9 @@ export const books = [
     genre: "Классика",
     author: "Мигель де Сервантес",
     price: 580,
-    book_img: "/assets/img/books/don_quixote.jpg"
+    book_img: "/assets/img/books/don_quixote.jpg",
+    rating: 4.5,
+    reviews: 810
   },
   {
     id: 13,
@@ -114,7 +138,9 @@ export const books = [
     genre: "Классика",
     author: "Фёдор Достоевский",
     price: 620,
-    book_img: "/assets/img/books/karamazov.jpg"
+    book_img: "/assets/img/books/karamazov.jpg",
+    rating: 4.7,
+    reviews: 730
   },
   {
     id: 14,
@@ -123,7 +149,9 @@ export const books = [
     genre: "Роман",
     author: "Фрэнсис Скотт Фицджеральд",
     price: 390,
-    book_img: "/assets/img/books/great_gatsby.jpg"
+    book_img: "/assets/img/books/great_gatsby.jpg",
+    rating: 4.4,
+    reviews: 1650
   },
   {
     id: 15,
@@ -132,7 +160,9 @@ export const books = [
     genre: "Приключения",
     author: "Герман Мелвилл",
     price: 510,
-    book_img: "/assets/img/books/moby_dick.jpg"
+    book_img: "/assets/img/books/moby_dick.jpg",
+    rating: 4.2,
+    reviews: 590
   },
   {
     id: 16,
@@ -141,7 +171,9 @@ export const books = [
     genre: "Роман",
     author: "Харпер Ли",
     price: 430,
-    book_img: "/assets/img/books/mockingbird.jpg"
+    book_img: "/assets/img/books/mockingbird.jpg",
+    rating: 4.8,
+    reviews: 1950
   },
   {
     id: 17,
@@ -150,7 +182,9 @@ export const books = [
     genre: "Философия",
     author: "Оскар Уайльд",
     price: 400,
-    book_img: "/assets/img/books/dorian_gray.jpg"
+    book_img: "/assets/img/books/dorian_gray.jpg",
+    rating: 4.5,
+    reviews: 880
   },
   {
     id: 18,
@@ -159,7 +193,9 @@ export const books = [
     genre: "Антиутопия",
     author: "Олдос Хаксли",
     price: 420,
-    book_img: "/assets/img/books/brave_new_world.jpg"
+    book_img: "/assets/img/books/brave_new_world.jpg",
+    rating: 4.6,
+    reviews: 940
   },
   {
     id: 19,
@@ -168,7 +204,9 @@ export const books = [
     genre: "Фэнтези",
     author: "Филип Пулман",
     price: 540,
-    book_img: "/assets/img/books/golden_compass.jpg"
+    book_img: "/assets/img/books/golden_compass.jpg",
+    rating: 4.4,
+    reviews: 780
   },
   {
     id: 20,
@@ -177,7 +215,9 @@ export const books = [
     genre: "Сатира",
     author: "Джордж Оруэлл",
     price: 350,
-    book_img: "/assets/img/books/animal_farm.jpg"
+    book_img: "/assets/img/books/animal_farm.jpg",
+    rating: 4.7,
+    reviews: 1020
   },
   {
     id: 21,
@@ -186,7 +226,9 @@ export const books = [
     genre: "Фэнтези",
     author: "Джордж Р. Р. Мартин",
     price: 680,
-    book_img: "/assets/img/books/game_thrones.jpg"
+    book_img: "/assets/img/books/game_thrones.jpg",
+    rating: 4.5,
+    reviews: 2400
   },
   {
     id: 22,
@@ -195,7 +237,9 @@ export const books = [
     genre: "Детектив",
     author: "Дэн Браун",
     price: 490,
-    book_img: "/assets/img/books/da_vinci_code.jpg"
+    book_img: "/assets/img/books/da_vinci_code.jpg",
+    rating: 4.3,
+    reviews: 3200
   },
   {
     id: 23,
@@ -204,7 +248,9 @@ export const books = [
     genre: "Детская",
     author: "Льюис Кэрролл",
     price: 330,
-    book_img: "/assets/img/books/alice_wonderland.jpg"
+    book_img: "/assets/img/books/alice_wonderland.jpg",
+    rating: 4.8,
+    reviews: 1850
   },
   {
     id: 24,
@@ -213,7 +259,9 @@ export const books = [
     genre: "Фантастика",
     author: "Фрэнк Герберт",
     price: 590,
-    book_img: "/assets/img/books/dune.jpg"
+    book_img: "/assets/img/books/dune.jpg",
+    rating: 4.7,
+    reviews: 1560
   },
   {
     id: 25,
@@ -222,7 +270,9 @@ export const books = [
     genre: "Роман",
     author: "Патрик Зюскинд",
     price: 460,
-    book_img: "/assets/img/books/perfume.jpg"
+    book_img: "/assets/img/books/perfume.jpg",
+    rating: 4.4,
+    reviews: 870
   },
   {
     id: 26,
@@ -231,7 +281,9 @@ export const books = [
     genre: "Фантастика",
     author: "Дмитрий Глуховский",
     price: 480,
-    book_img: "/assets/img/books/metro_2033.jpg"
+    book_img: "/assets/img/books/metro_2033.jpg",
+    rating: 4.5,
+    reviews: 690
   },
   {
     id: 27,
@@ -240,7 +292,9 @@ export const books = [
     genre: "Роман",
     author: "Харуки Мураками",
     price: 510,
-    book_img: "/assets/img/books/norwegian_wood.jpg"
+    book_img: "/assets/img/books/norwegian_wood.jpg",
+    rating: 4.3,
+    reviews: 920
   },
   {
     id: 28,
@@ -249,7 +303,9 @@ export const books = [
     genre: "Ужасы",
     author: "Стивен Кинг",
     price: 720,
-    book_img: "/assets/img/books/it.jpg"
+    book_img: "/assets/img/books/it.jpg",
+    rating: 4.6,
+    reviews: 2100
   },
   {
     id: 29,
@@ -258,7 +314,9 @@ export const books = [
     genre: "Фэнтези",
     author: "Нил Гейман",
     price: 550,
-    book_img: "/assets/img/books/american_gods.jpg"
+    book_img: "/assets/img/books/american_gods.jpg",
+    rating: 4.5,
+    reviews: 1180
   },
   {
     id: 30,
@@ -267,7 +325,9 @@ export const books = [
     genre: "Фэнтези",
     author: "Клайв Стейплз Льюис",
     price: 430,
-    book_img: "/assets/img/books/narnia_1.jpg"
+    book_img: "/assets/img/books/narnia_1.jpg",
+    rating: 4.8,
+    reviews: 1760
   },
   {
     id: 31,
@@ -276,7 +336,9 @@ export const books = [
     genre: "Фэнтези",
     author: "Анджей Сапковский",
     price: 520,
-    book_img: "/assets/img/books/witcher_1.jpg"
+    book_img: "/assets/img/books/witcher_1.jpg",
+    rating: 4.7,
+    reviews: 1340
   },
   {
     id: 32,
@@ -285,7 +347,9 @@ export const books = [
     genre: "Роман",
     author: "Эмили Бронте",
     price: 410,
-    book_img: "/assets/img/books/wuthering_heights.jpg"
+    book_img: "/assets/img/books/wuthering_heights.jpg",
+    rating: 4.4,
+    reviews: 710
   },
   {
     id: 33,
@@ -294,7 +358,9 @@ export const books = [
     genre: "Роман",
     author: "Шарлотта Бронте",
     price: 440,
-    book_img: "/img/books/jane_eyre.jpg"
+    book_img: "/assets/img/books/jane_eyre.jpg",
+    rating: 4.6,
+    reviews: 950
   },
   {
     id: 34,
@@ -303,7 +369,9 @@ export const books = [
     genre: "Приключения",
     author: "Роберт Льюис Стивенсон",
     price: 380,
-    book_img: "/assets/img/books/treasure_island.jpg"
+    book_img: "/assets/img/books/treasure_island.jpg",
+    rating: 4.5,
+    reviews: 820
   },
   {
     id: 35,
@@ -312,7 +380,9 @@ export const books = [
     genre: "Приключения",
     author: "Александр Дюма",
     price: 650,
-    book_img: "/assets/img/books/monte_cristo.jpg"
+    book_img: "/assets/img/books/monte_cristo.jpg",
+    rating: 4.7,
+    reviews: 1100
   },
   {
     id: 36,
@@ -321,7 +391,9 @@ export const books = [
     genre: "Приключения",
     author: "Александр Дюма",
     price: 580,
-    book_img: "/assets/img/books/three_musketeers.jpg"
+    book_img: "/assets/img/books/three_musketeers.jpg",
+    rating: 4.6,
+    reviews: 980
   },
   {
     id: 37,
@@ -330,7 +402,9 @@ export const books = [
     genre: "Детектив",
     author: "Артур Конан Дойл",
     price: 460,
-    book_img: "/assets/img/books/sherlock_holmes.jpg"
+    book_img: "/assets/img/books/sherlock_holmes.jpg",
+    rating: 4.8,
+    reviews: 1450
   },
   {
     id: 38,
@@ -339,7 +413,9 @@ export const books = [
     genre: "Исторический",
     author: "Маргарет Митчелл",
     price: 620,
-    book_img: "/assets/img/books/gone_with_wind.jpg"
+    book_img: "/assets/img/books/gone_with_wind.jpg",
+    rating: 4.5,
+    reviews: 1320
   },
   {
     id: 39,
@@ -348,7 +424,9 @@ export const books = [
     genre: "Фантастика",
     author: "Дэниел Киз",
     price: 390,
-    book_img: "/assets/img/books/flowers_algernon.jpg"
+    book_img: "/assets/img/books/flowers_algernon.jpg",
+    rating: 4.8,
+    reviews: 950
   },
   {
     id: 40,
@@ -357,7 +435,9 @@ export const books = [
     genre: "Аллегория",
     author: "Уильям Голдинг",
     price: 410,
-    book_img: "/assets/img/books/lord_flies.jpg"
+    book_img: "/assets/img/books/lord_flies.jpg",
+    rating: 4.4,
+    reviews: 780
   },
   {
     id: 41,
@@ -366,7 +446,9 @@ export const books = [
     genre: "Военный",
     author: "Эрих Мария Ремарк",
     price: 400,
-    book_img: "/assets/img/books/all_quiet.jpg"
+    book_img: "/assets/img/books/all_quiet.jpg",
+    rating: 4.7,
+    reviews: 860
   },
   {
     id: 42,
@@ -375,7 +457,9 @@ export const books = [
     genre: "Философия",
     author: "Райан Холидей",
     price: 550,
-    book_img: "/assets/img/books/stoic.jpg"
+    book_img: "/assets/img/books/stoic.jpg",
+    rating: 4.3,
+    reviews: 520
   },
   {
     id: 43,
@@ -384,7 +468,9 @@ export const books = [
     genre: "История",
     author: "Юваль Ной Харари",
     price: 640,
-    book_img: "/assets/img/books/sapiens.jpg"
+    book_img: "/assets/img/books/sapiens.jpg",
+    rating: 4.6,
+    reviews: 1890
   },
   {
     id: 44,
@@ -393,7 +479,9 @@ export const books = [
     genre: "Исторический",
     author: "Борис Пастернак",
     price: 530,
-    book_img: "/assets/img/books/doctor_zhivago.jpg"
+    book_img: "/assets/img/books/doctor_zhivago.jpg",
+    rating: 4.5,
+    reviews: 640
   },
   {
     id: 45,
@@ -402,7 +490,9 @@ export const books = [
     genre: "Детектив",
     author: "Дэн Браун",
     price: 500,
-    book_img: "/assets/img/books/angels_demons.jpg"
+    book_img: "/assets/img/books/angels_demons.jpg",
+    rating: 4.4,
+    reviews: 2100
   },
   {
     id: 46,
@@ -411,7 +501,9 @@ export const books = [
     genre: "Ужасы",
     author: "Говард Лавкрафт",
     price: 470,
-    book_img: "/assets/img/books/cthulhu.jpg"
+    book_img: "/assets/img/books/cthulhu.jpg",
+    rating: 4.5,
+    reviews: 730
   },
   {
     id: 47,
@@ -420,7 +512,9 @@ export const books = [
     genre: "Ужасы",
     author: "Мэри Шелли",
     price: 420,
-    book_img: "/assets/img/books/frankenstein.jpg"
+    book_img: "/assets/img/books/frankenstein.jpg",
+    rating: 4.4,
+    reviews: 890
   },
   {
     id: 48,
@@ -429,7 +523,9 @@ export const books = [
     genre: "Ужасы",
     author: "Брэм Стокер",
     price: 450,
-    book_img: "/assets/img/books/dracula.jpg"
+    book_img: "/assets/img/books/dracula.jpg",
+    rating: 4.6,
+    reviews: 1120
   },
   {
     id: 49,
@@ -438,7 +534,9 @@ export const books = [
     genre: "Криминал",
     author: "Марио Пьюзо",
     price: 520,
-    book_img: "/assets/img/books/godfather.jpg"
+    book_img: "/assets/img/books/godfather.jpg",
+    rating: 4.7,
+    reviews: 1560
   },
   {
     id: 50,
@@ -447,7 +545,9 @@ export const books = [
     genre: "Мистика",
     author: "Карлос Руис Сафон",
     price: 520,
-    book_img: "/assets/img/books/shadow_wind.jpg"
+    book_img: "/assets/img/books/shadow_wind.jpg",
+    rating: 4.6,
+    reviews: 940
   }
 ];
 
