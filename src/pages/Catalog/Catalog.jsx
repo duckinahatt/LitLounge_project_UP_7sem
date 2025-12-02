@@ -60,7 +60,38 @@ function Catalog() {
 
   return (
     <div>
-      <div className='container'></div>
+      <div className='container'>
+        <div className="row">
+          <div className="col-lg-3 mb-4">
+            <div className="filters-sidebar">
+              <div className="d-flex justify-content-between align-items-end mb-4">
+                <h3 className="mb-0">Фильтры</h3>
+                <button
+                  onClick={resetFilters}
+                  className="btn btn-sm"
+                >
+                  Сбросить
+                </button>
+              </div>
+
+              <div className="filter-section mb-4">
+                <h5 className="filter-title mb-3"> Жанр </h5>
+                <div className="filter-options">
+                  {genres.map(genre => (
+                    <button
+                      key={genre}
+                      className={`filter-chip ${selectedGenre === genre ? 'active' : ''}`}
+                      onClick={() => setSelectedGenre(genre)}
+                    >
+                      {genre}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
