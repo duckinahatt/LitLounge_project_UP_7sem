@@ -1,0 +1,32 @@
+.product-card {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.product-image {
+  width: 50%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.product-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-author,
+.product-genre,
+.product-description,
+.product-price,
+.product-rating {
+  margin-bottom: 8px;
+}
