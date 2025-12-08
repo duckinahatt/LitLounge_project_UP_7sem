@@ -3,9 +3,33 @@ footer {
     color: var(--main-color-white);
     font-size: var(--text-size);
     padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 p {
     margin: 0;
     padding: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.social-icons a img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img,
+.social-icons a:focus img {
+    transform: scale(1.2);
+    cursor: pointer;
 }
