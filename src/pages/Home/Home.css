@@ -1,0 +1,58 @@
+#mainCarousel {
+    background-color: var(--main-color-brown);
+    padding: 50px;
+}
+
+#mainCarousel .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.title-shadow {
+  color: #fdf5e6;
+  text-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.7),
+    0 0 2px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+}
+
+#mainCarousel .carousel-item p {
+    font-size: 14pt;
+    font-weight: bolder;
+}
+
+#mainCarousel .carousel-item h2 {
+    font-size: 30pt;
+}
+
+div {
+    border-radius: 5px;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+.advice {
+    height: 150px;
+    padding: 15px;
+    border: 1px solid var(--main-color-brown);
+    color: var(--main-color-brown);
+}
+
+.advice:hover {
+    background-color: var(--main-color-brown);
+    color: var(--main-color-white);
+}
+
+.advice h3 {
+    font-size: 14pt;
+    font-weight: bolder;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+
