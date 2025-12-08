@@ -568,3 +568,7 @@ export const getPriceRange = () => {
     max: Math.max(...prices)
   };
 }; //получаем минимальную и максимальную цену книг
+
+export const getBooksByMinRating = (minRating) => {
+  return books.filter(book => book.rating >= minRating);
+}; //получаем книги с рейтингом выше введенного
